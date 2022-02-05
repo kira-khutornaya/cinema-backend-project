@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class MovieSeeder extends Seeder
 {
@@ -11,7 +12,7 @@ class MovieSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): void
     {
         DB::table('movies')->insert([
             'name' => 'Звёздные войны XXIII: Атака клонированных клонов',
