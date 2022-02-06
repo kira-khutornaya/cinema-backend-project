@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE'],
 
-    'allowed_origins' => ['https://kira-khutornaya.github.io'],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
