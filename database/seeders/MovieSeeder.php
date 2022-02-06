@@ -20,6 +20,8 @@ class MovieSeeder extends Seeder
             'country' => 'США',
             'duration' => 130,
             'description' => 'Две сотни лет назад малороссийские хутора разоряла шайка нехристей-ляхов во главе с могущественным колдуном.',
+            'created_at' => date('d.m.Y H:i'),
+            'updated_at' => date('d.m.Y H:i'),
         ]);
     }
 }
